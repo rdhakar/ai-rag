@@ -1,4 +1,6 @@
 
+
+# GIT Hub repo : https://github.com/rdhakar/ai-rag.git
 import getpass
 import os
 # Load the .env file need to add following two lines
@@ -66,7 +68,7 @@ if __name__ == '__main__':
     )
     documents = text_splitter.split_documents(docs)
     len(documents)
-    print(f"Split {len(documents)} documents")
+    #print(f"Split {len(documents)} documents")
 
     for document in documents:
         print(f"Content of doc: {document.page_content}")
