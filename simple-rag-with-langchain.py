@@ -1,6 +1,10 @@
 
 
 # GIT Hub repo : https://github.com/rdhakar/ai-rag.git
+#uv add  langchain langchain-huggingface langchain-qdrant langchain-groq langchain-text-splitters
+#uv add sentence-transformers qdrant-client
+
+
 import getpass
 import os
 # Load the .env file need to add following two lines
