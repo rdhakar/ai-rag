@@ -3,6 +3,9 @@ name = "rag-impl-with-langchain"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
+    "docling>=2.151.1",
+    "docling-hierarchical-pdf>=0.2.0",
+    "groq>=0.37.1",
     "langchain>=1.5.0",
     "langchain-groq>=1.1.3",
     "langchain-huggingface>=1.2.3",
